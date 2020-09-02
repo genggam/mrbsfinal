@@ -639,7 +639,7 @@ div#div_custom_html {
 .table_container {
   overflow: auto;
   position: relative;
-  pointer-events: none;
+ <!--  //pointer-events: none; -->
   <?php
   // A height is necessary to make sticky headers work. Set the maximum height to be the viewport's,
   // less a fixed amount, which allows for a small space at the top and bottom, giving a little bit
